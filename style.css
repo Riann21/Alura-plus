@@ -163,3 +163,38 @@ p{
     font-size: 14px;
     font: 1em sans-serif;
 }
+
+@media screen and (max-width: 750px){ 
+    .container{display: block;
+    background-image: none;}
+    
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .segundario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .imagens{
+        width: 50vw;
+    }
+
+    .segundario__titulo{
+        text-align: center;
+    }
+
+    .container__dispositivos{
+        display: block;
+    }
+
+    .rodape__lista{
+        margin: 0;
+    }
+
+    .rodape{
+        margin: 2em;
+        
+    }
+}
